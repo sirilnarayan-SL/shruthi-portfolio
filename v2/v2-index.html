@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Shruthi L — EdTech PM & Human</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="v2-style.css"/>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a href="v2-index.html" class="nav-logo">
+    <span class="logo-s">S</span><span class="logo-l">L</span>
+  </a>
+  <div class="nav-center">
+    <a href="v2-index.html" class="nl active">Home</a>
+    <a href="v2-about.html" class="nl">About</a>
+    <a href="v2-work.html" class="nl">Work</a>
+    <a href="v2-human.html" class="nl">Human</a>
+    <a href="v2-blog.html" class="nl">Writing</a>
+    <a href="v2-contact.html" class="nl">Contact</a>
+  </div>
+  <div class="nav-right">
+    <a href="#" download class="nav-cv">CV ↓</a>
+    <button class="nav-menu-btn" id="menuBtn">
+      <span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE OVERLAY -->
+<div class="mob-overlay" id="mobOverlay">
+  <div class="mob-links">
+    <a href="v2-index.html">Home</a>
+    <a href="v2-about.html">About</a>
+    <a href="v2-work.html">Work</a>
+    <a href="v2-human.html">Human</a>
+    <a href="v2-blog.html">Writing</a>
+    <a href="v2-contact.html">Contact</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-noise"></div>
+  <div class="hero-bg-blobs">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-top">
+        <span class="hero-badge">Open to opportunities</span>
+      </div>
+
+      <h1 class="hero-name">
+        <span class="hn-line hn1">
+          <span class="hn-word">Shruthi</span>
+        </span>
+        <span class="hn-line hn2">
+          <span class="hn-word italic-word">L.</span>
+          <span class="hero-img-pill">
+            <img src="https://images.unsplash.com/photo-1580894742597-87bc8789db3d?w=120&h=120&fit=crop&crop=faces" alt="Education" loading="lazy"/>
+          </span>
+        </span>
+      </h1>
+
+      <div class="hero-descriptor">
+        <div class="rotating-words" id="rotatingWords">
+          <span class="rw active">Product & Solutions Professional</span>
+          <span class="rw">EdTech Product Thinker</span>
+          <span class="rw">Learning Experience Strategist</span>
+          <span class="rw">Curious Human</span>
+        </div>
+        <span class="hero-amp">·</span>
+        <span class="hero-loc">Mysore, India</span>
+      </div>
+
+      <p class="hero-sub">10+ years operating at the intersection of <strong>Pedagogy and Product</strong> — bridging deep instructional knowledge with scalable technology solutions to help institutions and learners succeed.</p>
+
+      <div class="hero-actions">
+        <a href="v2-work.html" class="btn-main">See My Work <span class="btn-arrow">→</span></a>
+        <a href="v2-human.html" class="btn-secondary">The Human Side</a>
+      </div>
+    </div>
+    
+    <div class="hero-right">
+      <div class="dash-card">
+        <div class="dash-header">
+          <div class="dots"><span class="r"></span><span class="y"></span><span class="g"></span></div>
+          <span class="dash-title">Solutions Framework</span>
+        </div>
+        <div class="dash-body">
+          <div class="metric-row">
+            <div class="metric"><span class="m-val" style="font-size: 1.4rem;">Pedagogy</span><span class="m-lbl">Rooted</span></div>
+            <div class="metric"><span class="m-val" style="font-size: 1.4rem;">Product</span><span class="m-lbl">Driven</span></div>
+          </div>
+          
+          <div class="pipeline-mock">
+            <div class="pipe-node p1">
+              <span class="p-dot"></span>
+              <span class="p-lbl">Discover</span>
+            </div>
+            <div class="pipe-line pl1"></div>
+            <div class="pipe-node p2">
+              <span class="p-dot"></span>
+              <span class="p-lbl">Design</span>
+            </div>
+            <div class="pipe-line pl2"></div>
+            <div class="pipe-node p3">
+              <span class="p-dot"></span>
+              <span class="p-lbl">Deploy</span>
+            </div>
+            <div class="pipe-line pl3"></div>
+            <div class="pipe-node p4">
+              <span class="p-dot"></span>
+              <span class="p-lbl">Iterate</span>
+            </div>
+          </div>
+
+          <div class="dash-tags">
+            <span class="d-tag">Product Discovery</span>
+            <span class="d-tag">Workflow Mapping</span>
+            <span class="d-tag">User Research</span>
+            <span class="d-tag">PRD Authorship</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    <span>scroll</span>
+  </div>
+
+  <!-- Marquee strip -->
+  <div class="hero-marquee">
+    <div class="marquee-track">
+      <span>Product Discovery</span><span>◆</span>
+      <span>Requirement Analysis</span><span>◆</span>
+      <span>Solution Design</span><span>◆</span>
+      <span>Stakeholder Alignment</span><span>◆</span>
+      <span>Agile · Scrum</span><span>◆</span>
+      <span>Product Operations</span><span>◆</span>
+      <span>Assessment Frameworks</span><span>◆</span>
+      <span>LMS / SIMS Implementation</span><span>◆</span>
+      <span>Instructional Design</span><span>◆</span>
+      <span>Product Discovery</span><span>◆</span>
+      <span>Requirement Analysis</span><span>◆</span>
+      <span>Solution Design</span><span>◆</span>
+      <span>Stakeholder Alignment</span><span>◆</span>
+      <span>Agile · Scrum</span><span>◆</span>
+      <span>Product Operations</span><span>◆</span>
+      <span>Assessment Frameworks</span><span>◆</span>
+      <span>LMS / SIMS Implementation</span><span>◆</span>
+      <span>Instructional Design</span><span>◆</span>
+    </div>
+  </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="philosophy">
+  <div class="phil-inner">
+    <div class="phil-label">philosophy</div>
+    <blockquote class="phil-quote">
+      "The best learning experiences don't feel like learning at all — they feel like <em>becoming</em>."
+    </blockquote>
+    <p class="phil-attr">— A belief Shruthi has built her career around</p>
+  </div>
+</section>
+
+<!-- PILLARS SECTION -->
+<section class="pillars">
+  <div class="pillars-label">what i do</div>
+  <div class="pillars-grid">
+    
+    <div class="pillar-card pc-dark">
+      <div class="pil-num">01</div>
+      <h3>Solutions & Enablement</h3>
+      <p>Translating institutional needs into scalable solutions, discovering product gaps, and building frameworks for cross-functional execution.</p>
+      <a href="v2-work.html" class="pil-link">Full experience →</a>
+    </div>
+
+    <div class="pillar-card pc-accent">
+      <div class="pil-num">02</div>
+      <h3>K-12 & Enterprise EdTech</h3>
+      <p>Deep expertise in how learners engage and what institutions require to drive adoption and meaningful outcomes.</p>
+    </div>
+
+    <div class="pillar-card pc-light">
+      <div class="pil-num">03</div>
+      <h3>Cross-Functional Leadership</h3>
+      <p>Bridging the gap between engineering, sales, and academic teams to deliver high-quality platforms on time.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PEEK SECTION -->
+<section class="peek">
+  <div class="peek-inner">
+    <div class="peek-text">
+      <span class="peek-label">beyond the resume</span>
+      <h2>There's a whole human<br/>behind the product work.</h2>
+      <p>Reading. Cinema. Travel. Mentoring. A curious mind that doesn't clock out when the workday ends.</p>
+      <a href="v2-human.html" class="btn-main">Explore the human side →</a>
+    </div>
+    <div class="peek-images">
+      <div class="peek-img pi1">
+        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=260&h=340&fit=crop" alt="Reading" loading="lazy"/>
+        <span>Reading</span>
+      </div>
+      <div class="peek-img pi2">
+        <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=260&h=220&fit=crop" alt="Travel" loading="lazy"/>
+        <span>Travel</span>
+      </div>
+      <div class="peek-img pi3">
+        <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=260&h=200&fit=crop" alt="Cinema" loading="lazy"/>
+        <span>Cinema</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <span class="footer-logo">SL</span>
+      <p>EdTech Product Manager · Mysore, India</p>
+    </div>
+    <div class="footer-links">
+      <a href="v2-about.html">About</a>
+      <a href="v2-work.html">Work</a>
+      <a href="v2-human.html">Human</a>
+      <a href="v2-contact.html">Contact</a>
+      <a href="https://linkedin.com/in/shruthivnaik" target="_blank">LinkedIn ↗</a>
+    </div>
+    <p class="footer-copy">© 2025 Shruthi L</p>
+  </div>
+</footer>
+
+<script src="v2-main.js"></script>
+</body>
+</html>
